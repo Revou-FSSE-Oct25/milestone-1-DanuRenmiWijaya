@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: black;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav span {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+    width: 900px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.AboutMe {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.Education {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.WorkExperience {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.Skills {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.Interests {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.footer-style {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
