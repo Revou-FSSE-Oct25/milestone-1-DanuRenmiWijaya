@@ -53,3 +53,34 @@ table {
     margin-right: auto;
     border: 1px solid black;
     }
+
+.MyProgram {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.MyProgram p {
+    text-align: center;
+}
+
+.MyProgram ul {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+}  
+
+.Suggestion-Input {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.Suggestion-Input fieldset {
+    margin-bottom: 20px;
+}
+
+.footer-style {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
