@@ -10,11 +10,18 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    margin-top: 30px;
 }
 
 h1 a {
     color: white;
     text-decoration: none;
+    margin-left: 10px;
 }
 
 nav {
@@ -34,27 +41,153 @@ main {
 }
 
 .AboutMe {
+    margin-top: 40px;
     margin-bottom: 40px;
-    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 70px;
+    padding: 20px;
+    transition-property: all;
+    transition-duration: 0.3s;
 }
+
+.AboutMe:hover {
+    box-shadow: 10px 10px 10px grey;
+    transform: scale(1.02);
+}
+
+.AboutMe img {
+    width: 150px;
+    height: auto;
+    margin-top: 40px;    
+}
+
 
 .Education {
     margin-bottom: 40px;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid black;
+    border-radius: 70px;
+    padding: 20px;
+    transition: all;
+    transition-duration: 0.3s;
 }
+
+.Education:hover {
+    box-shadow: 10px 10px 10px grey;
+    transform: scale(1.02);
+}
+
+.Education h2 {
+    margin-right: 40px;
+    margin-left: 25px;
+    font-size: xxx-large;
+}
+
+.Education table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+.Education table:hover {
+        transform: scale(1.2);
+}
+
 .WorkExperience {
     margin-bottom: 40px;
     text-align: center;
+    border: 3px solid black;
+    border-radius: 70px;
+    padding: 20px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.WorkExperience:hover {
+    box-shadow: 10px 10px 10px grey;
+    transform: scale(1.02);
+}
+
+.WorkExperience:hover {
+    box-shadow: 10px 10px 10px grey;
+    transform: scale(1.02);
+}
+
+.WorkExperience ul {
+    list-style-type: square;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+.WorkExperience ul:hover {
+    transform: scale(1.1);
 }
 
 .Skills {
     margin-bottom: 40px;
     text-align: center;
+    border: 3px solid black;
+    border-radius: 70px;
+    padding: 20px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.Skills:hover {
+    box-shadow: 10px 10px 10px grey;
+    transform: scale(1.02);
+}
+
+.Skills ul {
+    list-style-type: square;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+.Skills ul:hover {
+    transform: scale(1.1);
 }
 
 .Interests {
     margin-bottom: 40px;
     text-align: center;
+    border: 3px solid black;
+    border-radius: 70px;
+    padding: 20px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.Interests:hover {
+    box-shadow: 10px 10px 10px grey;
+    transform: scale(1.02);
+}
+
+.Interests ul {
+    list-style-type: square;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+.Interests ul:hover {
+    transform: scale(1.1);
 }
 
 .footer-style {
@@ -64,6 +197,7 @@ main {
     width: 100%;
     text-align: center;
     padding: 5px;
+    position: relative;
 }
 
 img {
