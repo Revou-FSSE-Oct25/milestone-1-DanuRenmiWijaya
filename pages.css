@@ -10,6 +10,12 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    margin-top: 30px;
 }
 
 h1 a {
@@ -36,16 +42,69 @@ main {
 
 .AboutMe {
     margin-bottom: 40px;
-    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 70px;
+    padding: 20px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.AboutMe:hover {
+    box-shadow: 10px 10px 10px grey;
+    transform: scale(1.02);
+}
+
+.AboutMe p {
+    text-align: left;
+}
+
+.AboutMe img {
+    width: 150px;
+    height: auto;
+    margin-top: 40px;
 }
 
 .RevoU {
     margin-bottom: 40px;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid black;
+    border-radius: 70px;
+    padding: 20px;
+    transition-property: all;
+    transition-duration: 0.3s;
 }
 
-p {
-    text-align: center;
+.RevoU:hover {
+    box-shadow: 10px 10px 10px grey;
+    transform: scale(1.02);
+}
+
+.RevoU img {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.RevoU p {
+    font-size: large;
+}
+
+.RevoU table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    transition: all;
+    transition-duration: 0.4s;
+}
+
+.RevoU table:hover {
+    transform: scale(1.2);
 }
 
 table {
@@ -57,6 +116,16 @@ table {
 .MyProgram {
     margin-bottom: 40px;
     text-align: center;
+    border: 3px solid black;
+    border-radius: 70px;
+    padding: 20px;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.MyProgram:hover {
+    box-shadow: 10px 10px 10px grey;
+    transform: scale(1.02);
 }
 
 .MyProgram p {
@@ -67,7 +136,13 @@ table {
     display: inline-block;
     text-align: left;
     margin: 0 auto;
-}  
+    transition: all;
+    transition-duration: 0.3s;
+}
+
+.MyProgram ul:hover {
+    transform: scale(1.1);  
+}
 
 .Suggestion-Input {
     margin-bottom: 40px;
