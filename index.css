@@ -69,10 +69,15 @@ main {
     transform: scale(1.02);
 }
 
+.AboutMe p {
+    text-align: justify
+}
+
 .AboutMe img {
     width: 150px;
     height: auto;
-    margin-top: 40px;    
+    margin-top: 40px; 
+    border-radius: 20px;
 }
 
 
@@ -108,7 +113,7 @@ main {
 }
 
 .Education table:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
 }
 
 .WorkExperience {
