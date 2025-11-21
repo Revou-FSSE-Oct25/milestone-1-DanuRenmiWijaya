@@ -1,20 +1,10 @@
-@media only screen and (min-width: 768px) {
-  main {
+@media only screen and (min-width: 768x) {
+  body {
     display: none;
   }
 
-  .AboutMe, .RevoU, .MyProgram {
-    border-radius: 20px;
-    padding: 10px;
-  }
-
-  .AboutMe img, .RevoU img {
-    width: 100px;
-    margin-top: 20px;
-  }
-
-  .MyProgram ul {
-    font-size: small;
+  .nav-links li {
+    margin: 10px 0;
   }
 }
 
