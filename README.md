@@ -11,6 +11,7 @@
 ## Technologies
 This website is built using the following technologies :
 - HTML5 : to structure the backbone of the website. I've used semantic element to improve accesbility and SEO
-![alt text](<Screenshot (156).png>)
+<img width="1920" height="1080" alt="Screenshot (156)" src="https://github.com/user-attachments/assets/fa4c5693-c41c-4d3a-bc7d-ad4de1c32b3c" />
+
 - CSS3 : styling HTML structure, also use flex, transition and responsive web design 
 - Deployment : This website has been deployed Github and also can be visited through this link : https://github.com/Revou-FSSE-Oct25/milestone-1-DanuRenmiWijaya
