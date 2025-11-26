@@ -52,7 +52,7 @@ main {
 
 .AboutMe {
     margin-bottom: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: large;
     display: flex;
     flex-direction: column;
@@ -81,7 +81,7 @@ main {
 .RevoU {
     margin-bottom: 40px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     border: 3px solid black;
     border-radius: 70px;
     padding: 20px;
