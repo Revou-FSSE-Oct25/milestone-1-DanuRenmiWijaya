@@ -16,4 +16,4 @@ This website is built using the following technologies :
 
 
 - CSS3 : styling HTML structure, also use flex, transition and responsive web design 
-- Deployment : This website has been deployed Github and also can be visited through this link : https://github.com/Revou-FSSE-Oct25/milestone-1-DanuRenmiWijaya
+- Deployment : This website has been deployed Github and also can be visited through this link : https://revou-fsse-oct25.github.io/milestone-1-DanuRenmiWijaya/
